@@ -1,4 +1,4 @@
-import { View, StyleSheet, Button, Image } from "react-native";
+import { View, StyleSheet } from "react-native";
 
 import Text from "../Text";
 import Avatar from "./Avatar";
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     justifyContent: "flex-start",
     alignItems: "flex-start",
-    marginRight: 50
+    width: "80%"
   },
   flexContainerRowAS: {
     flexDirection: "row",

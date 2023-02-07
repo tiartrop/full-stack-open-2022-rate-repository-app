@@ -1,4 +1,4 @@
-import { StyleSheet, Pressable } from "react-native";
+import { StyleSheet } from "react-native";
 
 import Text from "./Text";
 
@@ -7,15 +7,17 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 16,
     lineHeight: 60,
-    fontWeight: "bold"
+    fontWeight: "bold",
+    paddingLeft: 12,
+    paddingRight: 12
   }
 });
 
 const AppBarTab = ({ tab }) => {
   return (
-    <Pressable>
+    <>
       <Text style={styles.tab}>{tab}</Text>
-    </Pressable>
+    </>
   );
 };
 
