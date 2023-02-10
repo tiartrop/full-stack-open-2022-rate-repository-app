@@ -20,7 +20,8 @@ const styles = StyleSheet.create({
   flexContainerRowAS: {
     flexDirection: "row",
     justifyContent: "space-around",
-    alignItems: "center"
+    alignItems: "center",
+    marginTop:6
   },
   flexContainerRowSS: {
     flexDirection: "row",
